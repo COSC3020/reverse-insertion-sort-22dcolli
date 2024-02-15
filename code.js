@@ -2,7 +2,7 @@
 
 function insertionSortReverse(arr) 
 {
-  //originally for(var i = arr.length-1; i > 1; i--) and -2, not -1
+  //originally for(var i = arr.length-1; i > 1; i--)
   for(var i = arr.length-1; i >= 0; i--) 
   {
     var val = arr[i];
