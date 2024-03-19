@@ -43,4 +43,4 @@ I believe that the Average Time Complexity is $\Theta(n^2)$. My reasoning for th
 we were given in lecture. The best case, which is $\Theta(n)$, is when the program is run and goes through a single time, finding an already sorted list.
 In contrast the worst case is when the list is sorted in reverse order, which looks like $\Theta(n^2)$. Thinking about this, the average case would 
 have to be $\Theta(n^2)$, because in every other instance other than the already sorted list, the algorith has to run through both the outer loop which is
-just $n$, and the inner loop which is $\frac{n}{2}$
+just $n$, and the inner loop which is $\frac{n}{2}$. The combination of the two loops leaves us with the previously stated average complexity of $\Theta(n^2)$
